@@ -6,15 +6,15 @@
 <p>The Graph is using HashMap Data Structure for storing all the Vertexes of the Graph & Key for quick access to each Vertex.
 Using also a Second HashMap for containing a list of Edges for each Vertex (+Weight).</p>
 
-<p>The Graph is using HashMap Data Structure for storing all the Vertexes of the Graph & Key for quick access to each Vertex.
-Using also a Second HashMap for containing a list of Edges for each Vertex (+Weight).</p>
+<p>The Graph is using HashMap Data Structure for storing all the Vertexes of the Graph & Key for quick access to each Vertex. <br>
+Using also a Second HashMap for containing a list of Edges for each Vertex (+Weight). <br> </p>
 <p>Info: -key values are Integer </p>
 <p>Empty and Copy Constructors.</p>
 <p>
-For receiving/adding/remove a Vertex use getNode(key) -> node_info ; addNode(key) -> void ; removeNode(key) -> node_info.
-For checking/receiving/remove an Edge use hasEdge(key1,key2) -> boolean value ; getEdge(key1,key2) -> double value ; removeEdge(key1,key2) -> void.
-Collection<node_info> - getV() -> Collection of Vertices of the Graph ; getV(node_id) -> Collection of Vertices that hasEdge with node_id.
-nodeSize() -> Integer ; edgeSize() -> Integer ; getMC() -> Integer - Counter for Graph Modifications 
+For receiving/adding/remove a Vertex use getNode(key) -> node_info ; addNode(key) -> void ; removeNode(key) -> node_info. <br>
+For checking/receiving/remove an Edge use hasEdge(key1,key2) -> boolean value ; getEdge(key1,key2) -> double value ; removeEdge(key1,key2) -> void. <br>
+Collection<node_info> - getV() -> Collection of Vertices of the Graph ; getV(node_id) -> Collection of Vertices that hasEdge with node_id. <br>
+nodeSize() -> Integer ; edgeSize() -> Integer ; getMC() -> Integer - Counter for Graph Modifications <br>
 <p>
 	[private] Class NodeData - implements node_info -> Inner Class of WGraph_DS.
 
