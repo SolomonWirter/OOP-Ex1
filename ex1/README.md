@@ -46,9 +46,10 @@ Empty and Copy Constructors.
 * `shortestPathDist(src - Key, dest - Key)` - return double value - represent the shortest distance from src to dest (Weight of Edges) <br>
 * `shortestPath(src - Key, dest - Key)` - return List - Vertex(src) -> Vertex(1) -> V -> V -> ... -> Vertex(dest) <br>
 Both Shortest Path Methods - Uses `Dijkstra Algorithm` -> Granting each Vertex a Tag Value (EdgeWeight Sum Form Source)-[Min_Sum] <br>
+
 **Illustration of Dijkstra**
 
-![alt text](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#/media/File:Dijkstra_Animation.gif)
+![alt text](https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif)
 
 
 
