@@ -6,9 +6,10 @@
 **Graph `V` – for Vertex , `E` – for Edges. -> each Edge contain a `Weight Value`**
 
 The Graph is using `HashMap` Data Structure for storing all the Vertexes of the Graph & Key for quick access to each Vertex. 
-Using also a Second `HashMap` for containing a list of Edges for each Vertex `(+Weight)`. <
+Using also a Second `HashMap` for containing a list of Edges for each Vertex `(+Weight)`. 
+
 **Info:**  - 'key' values are 'Integer'
-Empty and Copy Constructors.
+>Contain Empty and Copy Constructors.
 
 * For receiving/adding/remove a Vertex use `getNode(key)` -> node_info ; `addNode(key)` -> void ; `removeNode(key)` -> node_info. 
 * For checking/receiving/remove an Edge use `hasEdge(key1,key2)` -> boolean value ; `getEdge(key1,key2)` -> double value ; `removeEdge(key1,key2)` -> void. 
