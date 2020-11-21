@@ -27,20 +27,23 @@ nodeSize() -> Integer ; edgeSize() -> Integer ; getMC() -> Integer - Counter for
 	Receiving a Key getKey() , set/get.Tag((double)set) , set/get.Info("set"). 
 <p>Class WGraph_Algo - implements weighted_graph_algorithms.</p>
 
-Checking the Graph above if it is Connected – (Every Vertex is reachable from Every Vertex).
-Returning the Shortest path from Vertex - A to Vertex – B, (A,B\ \in\ V)
+Checking the Graph above if it is Connected – (Every Vertex is reachable from Every Vertex). <br>
+Returning the Shortest path from Vertex - A to Vertex – B, (A,B\ \in\ V) <br>
 
 <p>info:</p>
-For Applying any method on a graph first use init(weighted_graph) to initiate the Graph of the Class.
-IF you are not sure which Graph you working on use getGraph() -> weighted_graph.
-Also save\load weighted_graph is possible save(File Name) ; load(File Name) -> Both Methods return boolean value for success or not.
-For checking if the Graph is connected apply isConnected() -> boolean value 
-isConnected() - Use BFS - Breath-First-Search Algorithm -> Granting each Vertex a Tag Value
-Explanation: each Vertex receive a Value that represent the number of Vertices from the Source Vertex
-There are 2 Methods for receiving the Shortest Path -
-shortestPathDist(src - Key, dest - Key) - return double value - represent the shortest distance from src to dest (Weight of Edges)
-shortestPath(src - Key, dest - Key) - return List - Vertex(src) -> Vertex(1) -> V -> V -> ... -> Vertex(dest)
-Both Shortest Path Methods - Uses Dijkstra Algorithm -> Granting each Vertex a Tag Value (EdgeWeight Sum Form Source)-{Min_Sum}
+<p>
+For Applying any method on a graph first use init(weighted_graph) to initiate the Graph of the Class. <br>
+IF you are not sure which Graph you working on use getGraph() -> weighted_graph. <br>
+Also save\load weighted_graph is possible save(File Name) ; load(File Name) -> Both Methods return boolean value for success or not. <br>
+For checking if the Graph is connected apply isConnected() -> boolean value <br>
+isConnected() - Use BFS - Breath-First-Search Algorithm -> Granting each Vertex a Tag Value. <br>
+Explanation: each Vertex receive a Value that represent the number of Vertices from the Source Vertex. <br>
+There are 2 Methods for receiving the Shortest Path - <br>
+<div>
+shortestPathDist(src - Key, dest - Key) - return double value - represent the shortest distance from src to dest (Weight of Edges) <br>
+shortestPath(src - Key, dest - Key) - return List - Vertex(src) -> Vertex(1) -> V -> V -> ... -> Vertex(dest) <br>
+Both Shortest Path Methods - Uses Dijkstra Algorithm -> Granting each Vertex a Tag Value (EdgeWeight Sum Form Source)-{Min_Sum} <br>
+</div>
 
 
 
